@@ -5,9 +5,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-  --brand-color: #FF6060;
+  --brand-color: #004DA5;
+  --brand-color-light: #0077ff;
   --blurple: #5865f2;
-  --scrollbar-color: var(--brand-color);
+  --scrollbar-color: var(--brand-color-light);
   --background-color: var(--grey-dark);
   --scrollbar-padding: var(--background-color);
   --grey-extralight: #ebedef;
@@ -22,6 +23,14 @@
 
 .bg-brand {
   background-color: var(--brand-color);
+}
+
+.text-brand-light {
+  color: var(--brand-color-light);
+}
+
+.bg-brand-light {
+  background-color: var(--brand-color-light);
 }
 
 .bg-grey-dark {
